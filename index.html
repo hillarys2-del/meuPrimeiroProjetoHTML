@@ -3,17 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resetar Senha</title>
+    <title>Página de Login</title>
     <link rel="stylesheet" href="css/global.css">
 </head>
 <body>
     <div class="container">
-        <h1>Resetar Senha</h1>
-        <form action="novasenha.html">
-            <label for="newPassword">Insira uma nova senha:</label>
-            <input type="password" id="newPassword" name="newPassword" required>
-            <button type="submit">Resetar Senha</button>
+        <h1>Login</h1>
+        <form action="home.html" class="form-box">
+            <label for="username">Usuário:</label>
+            <input type="text" id="username" name="username" required>
+            
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" required>
+            
+            <button type="submit">Login</button>
         </form>
+        <a href="cadastro.html">Criar uma conta</a>
     </div>
 </body>
 </html>
