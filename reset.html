@@ -3,18 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resetar Senha</title>
     <link rel="stylesheet" href="css/global.css">
+    <title>Resetar Senha</title>
 </head>
 <body>
     <div class="container">
         <h1>Resetar Senha</h1>
-        <form method="post" action="novasenha.html">
-        <fieldset>
-            <label for="newPassword">Insira uma nova senha:</label>
-            <input type="password" id="newPassword" name="newPassword" required>
-            <button type="submit">Resetar Senha</button>
-        </fieldset>
+        <form>
+            <input type="email" placeholder="Email" required>
+            <button type="submit" onclick="window.location.href='novasenha.html'">Resetar Senha</button>
         </form>
     </div>
 </body>

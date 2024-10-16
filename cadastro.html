@@ -3,24 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastrar</title>
     <link rel="stylesheet" href="css/global.css">
+    <title>Cadastro</title>
 </head>
 <body>
     <div class="container">
         <h1>Cadastro</h1>
-        <form method="post" action="cadastramento.html">
-        <fieldset>
-            <label for="newUsername">Usuário:</label>
-            <input type="text" id="newUsername" name="newUsername" required>
-            
-            <label for="newPassword">Senha:</label>
-            <input type="password" id="newPassword" name="newPassword" required>
-            
-            <button type="submit">Cadastrar</button>
-        </fieldset>
+        <form>
+            <input type="text" placeholder="Nome" required>
+            <input type="email" placeholder="Email" required>
+            <input type="password" placeholder="Senha" required>
+            <button type="submit" onclick="window.location.href='cadastramento.html'">Cadastrar</button>
         </form>
-        <a href="index.html"></a>
+        <button onclick="window.location.href='index.html'">Voltar</button>
     </div>
 </body>
 </html>
