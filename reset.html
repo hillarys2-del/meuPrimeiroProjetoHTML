@@ -3,16 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reset de Senha</title>
+    <title>Resetar Senha</title>
     <link rel="stylesheet" href="css/global.css">
 </head>
 <body>
     <div class="container">
         <h1>Resetar Senha</h1>
-        <label for="email">Insira seu email:</label>
-        <input type="email" id="email" name="email" required><br>
-        
-        <button onclick="window.location.href='novasenha.html';">Resetar Senha</button>
+        <form action="novasenha.html">
+            <fieldset>
+                <legend>Informe seu E-mail</legend>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+            
+                    <button type="submit">Resetar Senha</button>
+            </fieldset>
+        </form>
     </div>
 </body>
 </html>
