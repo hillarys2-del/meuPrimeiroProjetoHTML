@@ -7,18 +7,22 @@
     <link rel="stylesheet" href="css/global.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Login</h1>
-        <label for="username">Usuário:</label>
-        <input type="text" id="username" name="username" required><br>
-        
-        <label for="password">Senha:</label>
-        <input type="password" id="password" name="password" required><br>
-        
-        <button onclick="window.location.href='home.html';">Login</button><br>
-        
-        <a href="cadastro.html">Criar conta</a><br>
-        <a href="reset.html">Esqueceu a senha?</a>
-    </div>
+    <form method="post" action="URL">
+    <fieldset>
+        <div class="container">
+            <h1>Login</h1>
+            <label for="username">Usuário:</label>
+            <input type="text" id="username" name="username" required><br>
+            
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" required><br>
+            
+            <button onclick="window.location.href='home.html';">Login</button><br>
+            
+            <a href="cadastro.html">Criar conta</a><br>
+            <a href="reset.html">Esqueceu a senha?</a>
+        </div>
+    </fieldset>
+    </form>
 </body>
 </html>
